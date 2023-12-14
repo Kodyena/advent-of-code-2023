@@ -1,0 +1,3 @@
+Notes:
+-Instead of using list treat seeds to be processed as queue -> more intuitive
+-Got boundaries of seed ranges wrong i.e 58 2 is 58 59 not 58 59 60

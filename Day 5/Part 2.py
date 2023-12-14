@@ -1,3 +1,5 @@
+'''
+'''
 lines = open("Day 5/input.txt").read().splitlines()
 seeds = [int(seed) for seed in lines[0].split(':')[1].split()]
 seed_ranges = [[seeds[2*i] , seeds[2*i] +  seeds[(2 * i) + 1] - 1] for i in range((len(seeds) + 1 )// 2)]
