@@ -1,0 +1,2 @@
+-Can use sort and counter object to do the character frequency checks
+-itemgetter is more efficient for key sorting on an index
