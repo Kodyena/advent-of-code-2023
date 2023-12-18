@@ -1,0 +1,22 @@
+-Assume routes don't intersect
+
+Find start pos
+Add start pos to check queue
+
+While loop not found:
+    Get next route on list
+    For each direction in curr pipe:
+        If backtracking or point in route and not starting:
+            continue
+        If pipes connect:
+            Update route with new point
+            Check if at the starting point:
+                return this route
+            Add new point and route to queue
+
+Check current and previous row point 
+If theres gap
+    add to count
+    wait until another gap found
+Otherwise 
+    Go to next value
